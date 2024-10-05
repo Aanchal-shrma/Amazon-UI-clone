@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    background: #cccccc;
+}
+.navbar{
+    display: flex;
+    justify-content:space-evenly;
+}
+.amzon-logo{
+    margin: 4px;
+}
+.amzon-logo:hover{
+    border: 1.3px solid white;
+}
+.sign-in:hover{
+    border: 1.3px solid white;
+}
+.returns:hover{
+    border: 1.3px solid white;
+}
+.delivr:hover{
+    border: 1.3px solid white;
+}
+.lang:hover{
+    border: 1.3px solid white;
+}
+.cart:hover{
+    border: 1.3px solid white;
+}
+.opt:hover{
+    border: 1.3px solid white;
+}
+.options p:hover{
+    border: 1.3px solid white;
+}
+.border{
+    border: 1.3px solid transparent;
+}
+.navbar{
+    background-color:black;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.delivr-to{
+    color: #cccccc;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.delivr{
+    margin-left: 2px;
+    padding: 4px;
+}
+.india{
+    margin-left: 4px;
+}
+
+.in{
+    display: flex;
+    font: 14px;
+    color: #ffffff;
+}
+.icon{
+    margin: 8px 0px 0px;
+}
+.search-input{
+    height: 35px;
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    
+}
+.input-box{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.all{
+    border: none;
+    outline: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+}
+.search-icon{
+    background-color: rgb(255, 123, 0);
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.lang{
+    color: white;
+    margin-left: 10px;
+    padding-top: 15px;
+    display: flex;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.en{
+    margin-left: 1px;
+
+}
+.sign-in{
+    color: white;
+}
+.hello{
+    font-size: 12px;
+    padding-left: 5px;
+    color:#cccccc;
+    
+
+}
+.option{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+
+}
+.ret{
+    font-size: 12px;
+    color:#cccccc;  
+}
+.ord{
+    font-size: 14px;
+    color:white;    
+}
+.cart{
+    color: white;
+    display: flex;
+}
+.sign-in{
+    padding: 3px 2px;
+}
+.returns{
+    padding: 3px 2px;
+}
+
+.search-input:hover{
+    border: 2px solid rgb(244, 196, 4);
+    border-radius: 5px;
+}
+.navbar-sec{
+    height:40px;
+    background-color: rgb(1, 1, 73);
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.options {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.options p{
+    font-size: 0.85rem;
+    margin-left: 15px;
+    padding: 10px 2px;
+}
+.opt{
+    padding: 10px 3px;
+}
+.main-section{
+    background-image: url(main.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.para{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 0.87rem;
+}
+
+.para a{
+    color: green;
+    font-size: 0.85rem;
+}
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    width: 100%;
+}
+.box{
+    height: 300px;
+    width:270px;
+    background-color: white;
+}
+.img{
+    background-image: url(hero1.png);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.shimmer{
+    height: 230px;
+    width: 240px;
+    margin-top: 5px; 
+    background-color: gray;
+}
+.content{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.img1{
+    background-image: url(hero2.png);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img2{
+    background-image: url(hero3.png);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img3{
+    background-image: url(hero4.png);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+/*section 2*/
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.img4{
+    background-image: url(img1.png);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img5{
+    background-image: url(img2.png);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img6{
+    background-image: url(img3.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img7{
+    background-image: url(img4.png);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.section3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.img8{
+    background-image: url(img5.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img9{
+    background-image: url(img6.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img10{
+    background-image: url(img7.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img11{
+    background-image: url(img13.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.section4{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.img12{
+    background-image: url(img9.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img13{
+    background-image: url(img10.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img14{
+    background-image: url(img11.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.img15{
+    background-image: url(img12.jpg);
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    margin-top: 5px;
+   
+}
+.content a{
+    color:green;
+}
+.recommend{
+    width: 100%;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+}
+.recommend button{
+padding: 10px 100px;
+background-color: rgb(255, 166, 0);
+color: black;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+.recommend a{
+    color: green;
+}
+.back{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#37475a;
+    color: white;
+}
+.footer{
+    background-color:#222f3d;
+    color: white;
+    height:300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 0.5px solid #dddddd9f;
+
+}
+
+.footer p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.footer li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #dddddd;
+}
+.panel{
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.panel button{
+    background-color: #222f3d;
+    color:#dddddd;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    outline: none;
+    padding: 10px 80px;
+
+}
+.black-footer{
+    width: 100%;
+    height: 400px;
+    background-color:#131A22;
+    color: #cccccc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.black-footer ul{
+    padding-top: 20px;
+}
+.black-footer ul li{
+    list-style: none;
+    font-size: 0.85rem;
+}
+.cond{
+    height: 100px;
+    width: 100%;
+    background-color: #131A22;
+    color: #cccccc;
+}
+.cond li {
+   list-style: none;
+   color: green;
+   display: grid;
+   justify-content: center;
+}
+.cond p {
+    list-style: none;
+    display: grid;
+    justify-content: center;
+ }
+
+
